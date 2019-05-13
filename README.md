@@ -26,29 +26,28 @@ Squatting-generation Models:
 
     (9) Common Misspelling Mistakes Substitution: Replace specific characters with common misspelling mistakes. e.g., “Facebook” into “Faceb00k”.
 
-2、AppCrazy Tools 
-	Generating potential squatting appname and packagename,Supports the following Squatting Generation Models:
-    vowel_character_insertion,vowel_character_deletion,vowel_character_substitution,double_character_insertion,double_character_deletion,
-    puncatuation_substitution,puncatuation_deletion,misspelling_mistakes_substition,string_rearrangement
-	
-	usage:
-	
-![image](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot1.jpg)
-	
-	AppCrazy Usage Example:
-	(1) AppCrazy.py -a example -p com.example
-	print result on the screen.
-	
-![example](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot2.jpg)
-	
-	(2) AppCrazy.py -a example -p com.example -f ./example.txt
-	write result into .txt file.
-
-3、Combosquatting Generation Models. 
+2、Combosquatting Generation Models. 
 
     (1) String Expansion: Insert characters before or after the identifier name, e.g., “Facebook” into “Facebook1”.
+    
     (2) String Rearrangement: Split the string into elements based on character dot, and rearrangement the elements, e.g., “com.facebook.katana” into “com.katana.facebook”. Specifically, rearranged strings that are composed of commonnames in Android will be discarded. e.g., “com.android”, “com.google”, “com.game”
+    
+3、AppCrazy Tools 
 
+    Generating potential squatting appname and packagename,Supports the following Squatting Generation Models:
+    
+    usage:
+	
+    AppCrazy Usage Example:
+    (1) AppCrazy.py -a example -p com.example
+    print result on the screen.
+	
+![image](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot1.jpg)
+		
+    (2) AppCrazy.py -a example -p com.example -f ./example.txt
+    write result into .txt file.
+
+![example](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot2.jpg)
 
 Result File.
 
