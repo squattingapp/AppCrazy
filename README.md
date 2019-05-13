@@ -32,7 +32,7 @@ Squatting-generation Models:
     puncatuation_substitution,puncatuation_deletion,misspelling_mistakes_substition,string_rearrangement
 	
 	usage:
-	![usage](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot1.jpg)
+	![screenshot1](https://github.com/squattingapp/AppCrazy/raw/master/Screenshot/screenshot1.jpg)
 	
 	AppCrazy Usage Example:
 	(1) AppCrazy.py -a example -p com.example
