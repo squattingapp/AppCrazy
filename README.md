@@ -26,7 +26,7 @@ Squatting-generation Models:
 
     (9) Common Misspelling Mistakes Substitution: Replace specific characters with common misspelling mistakes. e.g., “Facebook” into “Faceb00k”.
 
-2、AppCrazy Tools
+2、AppCrazy Tools 
 	Generating potential squatting appname and packagename,Supports the following Squatting Generation Models:
     vowel_character_insertion,vowel_character_deletion,vowel_character_substitution,double_character_insertion,double_character_deletion,
     puncatuation_substitution,puncatuation_deletion,misspelling_mistakes_substition,string_rearrangement
